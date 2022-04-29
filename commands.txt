@@ -1,0 +1,23 @@
+------------------------------ENV
+token="OTU2MDAwNjgzODU1ODY3OTA1.Yjp3BA.zDqo3mmqR9NKno1Hrbd7zv9y6z8"
+prefix=!-
+permisos_id="957303767282376754"
+permisos_mod_id="960232604819419136"
+logs_id="955606439441883196"
+basic_logs_id="956319546388647946"
+------------------------------ESLINTSRC.JSON
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+    }
+}
+-------------------------------token
+token="OTU2MDAwNjgzODU1ODY3OTA1.Yjp3BA.zDqo3mmqR9NKno1Hrbd7zv9y6z8"
