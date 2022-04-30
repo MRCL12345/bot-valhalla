@@ -40,12 +40,10 @@ module.exports = {
           inline: true,
         }
       );
-    if (
-      interaction.member.roles.cache.find((rol) => rol.id === BOT.permisos_id)
-    ) {
+
       interaction.channel.send({ embeds: [instruction] });
       interaction.reply("Message Instructions Updated");
       interaction.deleteReply();
-    }
+    
   },
 };

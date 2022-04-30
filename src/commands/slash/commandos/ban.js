@@ -14,15 +14,11 @@ module.exports = {
    */
   ejecutar: (client, interaction) => {
     const member = interaction.options.getMember("member");
-    if (
-      interaction.member.roles.cache.find((rol) => rol.id === BOT.permisos_id)
-    ) {
       if (!member.roles.cache.find((role) => role.id === BOT.permisos_id)) {
         interaction.guild.members.ban(member);
         interaction.reply(`${member.user} fue expulsado.`);
       } else {
         interaction.reply("Este usuario no puede ser expulsado.");
       }
-    } else interaction.reply("No tienes permisos para usar este comando");
   },
 };
