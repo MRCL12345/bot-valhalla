@@ -9,5 +9,9 @@ module.exports = {
     logs_id: "955606439441883196",
     basic_logs_id: "956319546388647946",
     unverified: "955319794645745704",
+    group: "[Group](https://www.roblox.com/groups/10233718/Hoplitas#!/about)",
+    youtube: "[Youtube]()",
+    discord: "[Discord](https://discord.gg/PK6RAszH)",
+    codex: "[Codex]()",
   },
 };

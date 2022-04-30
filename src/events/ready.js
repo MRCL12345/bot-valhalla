@@ -5,10 +5,7 @@ module.exports = {
     const slashcommands = client.slashcommands.map((x) => x);
     client.guilds.cache.get("955313010287710228").commands.set(slashcommands);
     const ready = new MessageEmbed()
-      .setAuthor(
-        "Valhalla",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FValhalla&psig=AOvVaw2M4VvBVGAoEAFyH-CflrQf&ust=1648175266584000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLD5xsHZ3fYCFQAAAAAdAAAAABAJ"
-      )
+      .setAuthor("Valhalla System")
       .setTitle("Valhalla Bot Is Ready")
       .setDescription("Valhalla Bot is a private app of Valhalla Clan")
       .setFields(
