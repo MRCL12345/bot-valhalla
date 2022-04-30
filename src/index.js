@@ -19,6 +19,14 @@ const fs = require("fs");
 const path = require("path");
 client.commands = new Collection();
 client.slashcommands = new Collection();
+const express = require("express");
+const app = express();
+app.listen(3000, () => {
+  console.log("esta corriendo.");
+});
+app.get("/", (req, res) => {
+  res.send("hola mundo");
+});
 //---------------CODE-----------------------
 
 const events = fs.readdirSync(path.join(__dirname, "events"));
